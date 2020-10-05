@@ -723,3 +723,20 @@ span.icon:hover::after{
     opacity:0.9;
     font-weight: 800;
 }
+
+
+/*New Additions*/
+#testimonial-control-left{
+    left: -30px;
+}
+#testimonial-control-right{
+    right: -30px;
+}
+@media screen and (max-width: 576px){
+    #testimonial-control-left{
+        left: -12px;
+    }
+    #testimonial-control-right{
+        right: -12px;
+    }   
+}
