@@ -694,7 +694,7 @@ span.icon:hover::after{
 }
 
 .effect.effect-one:hover img {
-	opacity: .7;
+	opacity: 1;
 	transform: translate3d(0, 0, 0) scale(1.1, 1.1)
 }
 .effect.effect-one h2.play-button{
