@@ -22,6 +22,11 @@ a:hover{
 .navbar-transparent{
     background-color:rgba(20, 20, 20, 0.3);
 }
+@media screen and (max-width: 576px){
+    .navbar-transparent{
+        background-color:rgba(20, 20, 20, 0.7);
+    }    
+}
 
 .main-button{
     margin:16px 0;
@@ -322,7 +327,8 @@ a:hover{
 /*Contact Us/Testimonial Slider*/
 .contact-parallax{
     color: white;
-    background-image: url("../images/banner/h1_hero.jpg");
+    /*background-image: url("../images/banner/h1_hero.jpg");*/
+    background-image: url("../images/parallax/p1.jpg");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -437,7 +443,7 @@ footer a:hover{
 
 .floater{
     position: fixed;
-    bottom:30px;
+    bottom:80px;
     left:0;
     z-index:99;
 }
@@ -467,6 +473,9 @@ span.icon:after{
 span.icon:hover::after{
     visibility: visible;
     opacity:1;
+}
+span.icon-1::after{
+    content: 'Whatsapp Now';
 }
 
 /* Inner Pages CSS */
@@ -738,5 +747,11 @@ span.icon:hover::after{
     }
     #testimonial-control-right{
         right: -12px;
+    }
+    #small-h1{
+        font-size: 28px;
     }   
+}
+#more-services{
+    cursor: pointer;
 }

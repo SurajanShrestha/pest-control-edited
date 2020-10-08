@@ -46,10 +46,12 @@
     }
 });
 
-$('#more-services').on('click',function(e){
+/*$('#more-services').on('click',function(e){
   e.preventDefault();
-  $('.service-hidden:hidden').slice(0,3).show();
+  //$('.service-hidden:hidden').slice(0,3).show();
+  $('.service-hidden:hidden').slice(0,3).css("display","block");
   if($('.service-hidden:hidden').length == 0){
       $("#more-services").hide();
-  } 
-});
+  }
+  console.log($('.service-hidden:hidden'));
+});*/
